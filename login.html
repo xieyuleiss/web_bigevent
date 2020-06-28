@@ -21,7 +21,7 @@
 
         <!-- 登陆框 -->
         <div class="login-box">
-            <form class="layui-form" action="">
+            <form class="layui-form" id="form_login">
                 <!-- 用户名 -->
                 <div class="layui-form-item">
                     <i class="layui-icon layui-icon-username"></i>
@@ -42,7 +42,7 @@
                         lay-filter="formDemo">登陆</button>
                 </div>
                 <div class="layui-form-item links">
-                    <a href="javascript:;" id="link-reg">去注册账号</a>
+                    <a href="javascript:;" id="link_reg">去注册账号</a>
                 </div>
 
 
@@ -78,7 +78,7 @@
                         lay-filter="formDemo">注册</button>
                 </div>
                 <div class="layui-form-item links">
-                    <a href="javascript:;" id="link-login">去登陆</a>
+                    <a href="javascript:;" id="link_login">去登陆</a>
                 </div>
 
         </div>
@@ -89,6 +89,8 @@
     <script src="./assets/lib/layui/layui.all.js"></script>
     <!-- 导入JQuery -->
     <script src="./assets/lib/jquery.js"></script>
+    <!-- 导入自己封装的baseAPI.js -->
+    <script src="./assets/js/baseAPI.js"></script>
     <!-- 导入自己的Javascript脚步 -->
     <script src="./assets/js/login.js"></script>
 </body>
